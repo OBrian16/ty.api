@@ -15,11 +15,12 @@
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
-    "helmet": "^3.18.0"
+    "helmet": "^3.18.0",
+    "nodemon": "^1.19.1"
   },
   "scripts": {
     "test": "mocha",
-    "start": "node server.js"
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",

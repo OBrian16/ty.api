@@ -40,10 +40,10 @@ app.use(routes)
 // Resolve finally with error handler
 app.use(errorHandler)
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT 
 
 app.listen(port, () => {
-  console.info(`Passenger API server listening on port ${port}!`)
+  console.info(`Ticketyangu API server listening on port ${port}!`)
 })
 
 module.exports = app

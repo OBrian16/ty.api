@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "semi": "off",
+    "no-console": "off",
+    "linebreak-style": "off",
+    "global-require": "off",
+    "func-names": "off",
+    "no-unused-vars": [
+      "warn",
+      {
+        "varsIgnorePattern": "[iI]gnored",
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "argsIgnorePattern": "[iI]gnored"
+      }
+    ]
+  }
+}

@@ -5,6 +5,7 @@ const { APIError } = require('../lib/errors')
 
 // Routes
 router.use('/examples', require('./example.route'))
+router.use('/auth', require('./auth.route'))
 
 router.get('/', (req, res) => {
   res.send('Ticketyangu API!')

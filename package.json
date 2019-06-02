@@ -9,7 +9,12 @@
     "test": "test"
   },
   "dependencies": {
-    "passport": "^0.4.0"
+    "bcryptjs": "^2.4.3",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^11.0.0"
   },
   "devDependencies": {
     "bcrypt": "^3.0.6",
@@ -19,7 +24,7 @@
     "dotenv": "^8.0.0",
     "eslint": "5.16.0",
     "eslint-plugin-import": "2.17.2",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "helmet": "^3.18.0",
     "mongoose": "^5.5.12",
     "nodemon": "^1.19.1"
